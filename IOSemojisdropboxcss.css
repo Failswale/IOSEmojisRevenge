@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'iOS Emoji';
+      src: url('https://www.dropbox.com/scl/fi/c76pizcxtry2o2x6axco4/iOS17.4-ANSHULDIXIT.ttf?dl=1') format('truetype');
+      }
+
+      .emoji, .emoji img {
+        font-family: 'iOS Emoji' !important;
+        }
+}
