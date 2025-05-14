@@ -1,5 +1,5 @@
 {
   "name": "iOS Emoji",
-  "url": "https://www.dropbox.com/scl/fi/c76pizcxtry2o2x6axco4/iOS17.4-ANSHULDIXIT.ttf?rlkey=yw813a9b0skc8lrpyeg06tcjq&st=u42e4e4b&dl=1",
-  "fallback": false
+  "url": "https://dl.dropboxusercontent.com/scl/fi/c76pizcxtry2o2x6axco4/iOS17.4-ANSHULDIXIT.ttf?rlkey=yw813a9b0skc8lrpyeg06tcjq&st=u42e4e4b&dl=1",
+  "fallback": true
 }
