@@ -1,0 +1,28 @@
+/* ─── iOS Emoji Theme for Revenge ─── */
+
+@import url('https://fonts.cdnfonts.com/css/apple-coloremoji');
+
+/* hide Discord’s sprite-based Twemoji */
+.emoji, .chat .emoji {
+  background-image: none !important;
+}
+
+/* force native emoji font everywhere */
+.emoji, .markup, .emoji-text {
+  font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif !important;
+  font-size: inherit !important;
+  vertical-align: text-bottom !important;
+}
+
+/* remove leftover <img class="emoji"> tags */
+img.emoji {
+  display: inline !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+
+/* fallback in case of missing glyphs */
+body {
+  font-family: system-ui, 'Apple Color Emoji', sans-serif !important;
+}
